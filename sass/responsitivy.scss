@@ -1,0 +1,866 @@
+@media (max-width: 1280px){
+  .container{
+    margin: 70px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .apresentationSection {
+    background-position: center center;
+    .content {
+      width: 440px;
+      img {
+        width: 310px;
+      }
+      h1 {
+        font-size: 54px;
+        line-height: 54px;
+      }
+      p {
+        width: 427px;
+        font-size: 17px;
+        line-height: 30px;
+        margin-bottom: 40px;
+      }
+      .btn {
+        width: 300px;
+      }
+    }
+  }
+
+  .ratingSection {
+    justify-content: space-around;
+    height: 120px;
+    div {
+      padding: 16px;
+      p {
+        font-size: 16px;
+        span {
+          padding-right: 8px;
+        }
+        .highlight {
+          font-size: 54px;
+        }
+      }
+    }
+    .rating {
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .whatLearnSection {
+    margin-bottom: 80px;
+    h2 {
+      width: 540px;
+      font-size: 48px;
+      line-height: 48px;
+    }
+
+    .cards {
+      margin: 70px;
+      .card {
+        height: auto;
+        width: 367px;
+        padding: 20px;
+        .img {
+          width: 70px;
+          height: 70px;
+          margin-bottom: 20px;
+  
+          img {
+            width: 46%;
+          }
+        }
+        h3 {
+          font-size: 28px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 26px;
+        }
+      }
+    }
+  }
+
+  .recommendationSection{
+    justify-content: space-between;
+    gap: 20px;
+
+    .recommended{
+      max-width: 360px;
+      width: 100%;
+      p{
+        gap: 6px;
+        font-size: 18px;
+        span{
+          font-size: 14px;
+          padding-bottom: 0px;
+        }
+      }
+      h2{
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 48px;
+      }
+      .btn{
+        width: 300px;
+      }
+      img{
+        width: 480px;
+        margin-left: -120px;
+      }
+    }
+    .cards{
+      gap: 20px;
+      .card{
+        max-width: 415px;
+        width: 100%;
+  
+        .personInfo{
+          gap: 16px;
+          padding: 20px;
+          height: 128px;
+        }
+        .testimony{
+          padding: 20px;
+          img{
+            width: 26px;
+          }
+          p:nth-child(2){
+            font-size: 16px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+
+  .infoModulesSection{
+    h2{
+      font-size: 48px;
+      line-height: 48px;
+      width: 550px;
+    }
+
+    .cards{
+      gap: 40px;
+      .card{
+        width: 270px;
+
+        .more{
+          padding: 12px 0px 12px 18px;
+          font-size: 22px;
+        }
+        
+      }
+    }
+  }
+
+  .bunusSection{
+    gap: 50px;
+    justify-content: center;
+    img {
+      max-width: 320px;
+      width: 100%;
+    }
+    .text {
+      max-width: 425px;
+      width: 100%;
+
+      h4 {
+        font-size: 18px;
+      }
+
+      h2 {
+        max-width: 310px;
+        font-size: 48px;
+        line-height: 48px;
+        margin-bottom: 36px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 26px;
+
+        &:not(:last-child){
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  .priceSection{
+    gap: 40px;
+    .price{
+      max-width: 418px;
+      width: 100%;
+      padding: 40px 8px;
+
+      .logo{
+        max-width: 300px;
+        width: 100%;
+        margin-bottom: 20px;
+      }
+  
+      .benefit{
+        p{
+          font-size: 14px;
+          padding: 16px 8px;
+  
+          img{
+            margin-right: 10px;
+            margin-bottom: -2px;
+          }
+  
+          &:last-child{
+            margin-bottom: 26px;
+          }
+        }
+      }
+  
+      .priceInfo{
+  
+        p{
+          font-size: 18px;
+
+        }
+  
+        h2{
+          font-size: 58px;
+          line-height: 82px;
+        }
+  
+        .btn{
+          margin-top: 32px;
+          margin-bottom: 24px;
+          height: 60px;
+          width: 90%;
+          font-size: 20px;
+        }
+        img{
+          width: 180px;
+        }
+      }
+  
+    }
+    .warranty{
+      max-width: 300px;
+      
+      img{
+        width: 160px;
+      }
+  
+      h2{
+        font-size: 44px;
+        line-height: 48px;
+        margin: 24px 0 20px 0;
+      }
+  
+      p{
+        font-size: 16px;
+        line-height: 26px;
+
+      }
+    }
+  }
+
+  .macbookSection{
+    h2{
+      max-width: 730px;
+      width: 100%;
+      font-size: 46px;
+      line-height: 50px;
+      margin-bottom: 40px;
+    }
+
+  }
+
+  .whoAmISection {
+    max-width: 735px;
+    gap: 30px;
+    .img {
+      max-width: 280px;
+      width: 99%;
+
+      img {
+        width: 500px;
+        bottom: -10px;
+        left: -100px;
+      }
+    }
+
+    .content {
+      width: 384px;
+      h6 {
+        font-size: 18px;
+      }
+      h2 {
+        font-size: 48px;
+        line-height: 48px;
+      }
+      p {
+        font-size: 16px;
+        margin-bottom: 14px;
+        line-height: 24px;
+      }
+      .btn {
+        width: 80%;
+      }
+    }
+  }
+
+  footer{
+    img{
+      width: 240px;
+    }
+  }
+}
+
+// container
+@media (max-width: 930px){
+  .container{
+    margin: 30px;
+  }
+  .whatLearnSection {
+    .cards {
+      margin: 30px;
+    }
+  }
+  .recommendationSection{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .bunusSection{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .priceSection{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .macbookSection{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .whoAmISection{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  
+}
+
+@media (max-width: 800px) {
+  .apresentationSection {
+    .content {
+      width: 410px;
+
+      h1 {
+        font-size: 46px;
+        line-height: 46px;
+        margin-bottom: 24px;
+      }
+      p {
+        width: 427px;
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 40px;
+      }
+      .btn {
+        width: 300px;
+        height: 64px;
+      }
+    }
+  }
+  .priceSection{
+    flex-direction: column;
+    margin-bottom: 100px;
+
+    .warranty{
+      img{
+        width: 200px;
+      }
+
+      h2{
+        font-size: 36px;
+        line-height: 36px;
+        max-width: 245px;
+      }
+
+
+      p{
+        margin-bottom: 15px;
+        line-height: 24px;
+      }
+    }
+  }
+
+}
+
+//container
+@media (max-width: 825px){
+  .container{
+    margin: 18px;
+  }
+  .whatLearnSection {
+    .cards {
+      margin: 18px;
+    }
+  }
+  .recommendationSection{
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  .bunusSection{
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  .priceSection{
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  .macbookSection{
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  .whoAmISection{
+    margin-left: 18px;
+    margin-right: 18px;
+
+  }
+}
+
+@media (max-width: 730px) {
+  .apresentationSection {
+    background-position-x: -795px;
+    background-position-y: 560px;
+    background-size: 1245px;
+    height: 1047px;
+    align-items: flex-start;
+    padding-left: 40px;
+
+    .content {
+      padding: 30px 0;
+      max-width: 360px;
+      width: 100%;
+
+      h1 {
+        width: 380px;
+        font-size: 46px;
+        line-height: 46px;
+        margin-bottom: 24px;
+      }
+      .btn {
+        max-width: 420px;
+        width: 100%;
+        height: 64px;
+      }
+    }
+  }
+
+  .ratingSection {
+    align-items: center;
+    height: 90px;
+    div {
+      padding: 16px 12px;
+      p {
+        font-size: 14px;
+        span {
+          padding-right: 6px;
+        }
+        .highlight {
+          font-size: 34px;
+        }
+      }
+    }
+    .rating {
+      p {
+        font-size: 12px;
+      }
+    }
+  }
+
+  .whatLearnSection {
+    margin-bottom: 50px;
+    height: auto;
+
+    h2 {
+      width: 460px;
+      font-size: 46px;
+      line-height: 46px;
+    }
+
+    .cards {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .card {
+        height: auto;
+        max-width: 367px;
+        width: 100%;
+        padding: 20px;
+      }
+    }
+  }
+
+  .recommendationSection{
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    .recommended{
+      max-width: 345px;
+      width: 100%;
+      p{
+        gap: 6px;
+        font-size: 18px;
+  
+        span{
+          font-size: 14px;
+          padding-bottom: 0px;
+        }
+      }
+  
+      h2{
+        font-size: 46px;
+        line-height: 46px;
+        margin-bottom: 30px;
+      }
+      .btn{
+        width: 90%;
+        height: 64px;
+      }
+      img{
+        max-width: 380px;
+        width: 100%;
+        margin-left: 0px;
+      }
+    }
+  
+    .cards{
+      gap: 20px;
+  
+      .card{
+        max-width: 415px;
+        width: 100%;
+  
+        .personInfo{
+          gap: 16px;
+          padding: 20px;
+          height: 128px;
+  
+        }
+        .testimony{
+          padding: 20px;
+
+          img{
+            width: 26px;
+          }
+
+          p:nth-child(2){
+            font-size: 16px;
+            line-height: 26px;
+          }
+        }
+      }
+    }
+  }
+
+  .infoModulesSection{
+
+    h2{
+      font-size: 38px;
+      line-height: 38px;
+      width: 430px;
+    }
+
+    .cards{
+      width: 100%;
+      gap: 40px;
+      flex-direction: column;
+      align-items: center;
+      .card{
+
+        &:hover{
+          width: 80%;
+        }
+
+        .more{
+          padding: 12px 0px 12px 18px;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  .bunusSection{
+    flex-direction: column;
+    margin-bottom: 100px;
+    img {
+      max-width: 320px;
+      width: 100%;
+    }
+    .text {
+      max-width: 390px;
+      width: 100%;
+
+      h4 {
+        font-size: 18px;
+      }
+
+      h2 {
+        max-width: 250px;
+        font-size: 38px;
+        line-height: 38px;
+        margin-bottom: 36px;
+      }
+      p {
+        font-size: 16px;
+        line-height: 26px;
+
+        &:not(:last-child){
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+
+  .macbookSection{
+    h2{
+      max-width: 730px;
+      width: 100%;
+      font-size: 34px;
+      line-height: 40px;
+      margin-bottom: 40px;
+    }
+
+  }
+  
+  .whoAmISection {
+    max-width: 500px;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+
+    .img {
+      border-radius: 15px;
+      height: 500px;
+      border: 2px solid $dark-gray;
+    }
+
+    .content {
+      border: 2px solid $dark-gray;
+      border-radius: 8px;
+      padding: 20px;
+
+      h2 {
+        font-size: 36px;
+      }
+
+      .btn {
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+      }
+    }
+  }
+
+  footer{
+    flex-direction: column;
+    gap: 40px;
+    p{
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 505px) {
+  .apresentationSection {
+    padding-left: 0;
+    .content {
+      max-width: 415px;
+
+      img {
+        width: 80%;
+      }
+
+      h1 {
+        max-width: 312px;
+        width: 100%;
+        font-size: 38px;
+        line-height: 38px;
+        margin-bottom: 24px;
+      }
+      p {
+        width: 90%;
+      }
+      .btn {
+        width: 80%;
+        height: 64px;
+      }
+    }
+  }
+
+  .ratingSection {
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    height: auto;
+    div {
+      border-top: 2px solid $dark-gray;
+      padding: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      p {
+        font-size: 18px;
+        span {
+          padding-right: 8px;
+        }
+        .highlight {
+          font-size: 48px;
+        }
+      }
+    }
+    .lesson {
+      border: none;
+      border-top: 2px solid $dark-gray;
+    }
+    .rating {
+      border-bottom: 2px solid $dark-gray;
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+
+  .whatLearnSection {
+    h2 {
+      padding: 0 18px;
+      width: 100%;
+      font-size: 38px;
+      line-height: 38px;
+    }
+  }
+
+  .recommendationSection{
+    .recommended{
+      max-width: 310px;
+      width: 100%;
+      h2{
+        width: 280px;
+        font-size: 38px;
+        line-height: 38px;
+      }
+
+
+    }
+  }
+
+  .infoModulesSection{
+
+    h2{
+      font-size: 34px;
+      line-height: 34px;
+      width: 80%;
+    }
+    .cards{
+      width: 100%;
+      gap: 40px;
+      flex-direction: column;
+      align-items: center;
+      .card{
+        width: 270px;
+        transition: 1s;
+  
+        &:hover{
+          width: 94%;
+        }
+
+        .more{
+          padding: 12px 0px 12px 18px;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+
+  .priceSection{
+    .price{
+      .priceInfo{
+        text-align: center;
+  
+        p{
+          font-size: 18px;
+          span{
+            text-decoration: line-through;
+          }
+        }
+  
+        h2{
+          font-size: 48px;
+          line-height: 56px;
+        }
+  
+      }
+    }
+  }
+
+  .whoAmISection {
+    .img {
+      width: 265px;
+      img {
+        width: 500px;
+        bottom: -10px;
+        left: -120px;
+      }
+    }
+
+    .content {
+      border: none;
+      width: 275px;
+
+      h2 {
+        font-size: 34px;
+      }
+
+      .btn {
+        width: 100%;
+        height: 60px;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (max-width: 380px) {
+  .apresentationSection {
+    .content {
+      h1 {
+        max-width: 270px;
+        width: 100%;
+        font-size: 32px;
+        line-height: 32px;
+        margin-bottom: 24px;
+      }
+      p {
+        width: 90%;
+      }
+      .btn {
+        width: 100%;
+      }
+    }
+  }
+  .priceSection{
+    .price{
+      .benefit{
+        p{
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+//Reset + Variaveis
+@import './global.scss';
+
+//Seção de apresentação
+@import './sections/apresentation2.scss';
+
+//Seção com informações como classificação, quantidade de aulas...
+@import './sections/rating.scss';
+
+//Seção 'o que você vai aprender?'
+@import './sections/whatLearn.scss';
+
+//Seção com depoimentos de alunos
+@import './sections/recommendation.scss';
+
+//Seção da faixa/divisoria
+@import './sections/ranger.scss';
+
+//Seção com informações dos módulos
+@import './sections/infoModules.scss';
+
+//Seção com informações de bônus
+@import './sections/bonus.scss';
+
+//Seção com o preço + garantia
+@import './sections/price.scss';
+
+//Seção com o macbook
+@import './sections/macbook.scss';
+
+//Seção quem sou eu
+@import './sections/whoAmI.scss';
+
+
+//Responsividade 
+@import "./responsitivy.scss";

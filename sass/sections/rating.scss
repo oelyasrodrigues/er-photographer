@@ -1,0 +1,40 @@
+@import "../global.scss";
+
+.ratingSection {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border: solid $dark-gray;
+  border-left: 0;
+  border-right: 0;
+  height: 160px;
+  div {
+    padding: 32px 64px;
+    p {
+      display: flex;
+      align-items: center;
+      color: $light-gray;
+      font-size: 18px;
+      span {
+        padding-right: 16px;
+      }
+      .highlight {
+        font-size: 64px;
+      }
+    }
+  }
+  .lesson {
+    border: 2px solid $dark-gray;
+    border-top: 0;
+    border-bottom: 0;
+  }
+  .rating {
+    background-color: $green;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    p {
+      font-size: 18px;
+    }
+  }
+}

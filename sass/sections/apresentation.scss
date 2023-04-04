@@ -1,0 +1,61 @@
+@import '../global.scss';
+
+.apresentationSection{
+  margin-left: 60px;
+  display: flex;
+  gap: 10px;
+  height: 100vh;
+  max-width: 1200px;
+  width: 100%;
+  .textArea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 560px;
+    min-width: 560px;
+    img{
+      height: 72px;
+      width: 346px;
+      margin-bottom: 50px;
+    }
+    h1{
+      font-size: 64px;
+      line-height: 64px;
+      font-weight: 400;
+      margin-bottom: 24px;
+    }
+    p{
+      width: 427px;
+      font-size: 18px;
+      line-height: 32px;
+      color: $light-gray;
+      margin-bottom: 56px;
+    }
+  }
+
+  .imgArea{
+    border-left: 2px solid $dark-gray;
+    max-width: 603px;
+    width: 100%;
+    position: relative;
+    div{
+      margin-left: 60px;
+      .rectangle{
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(90deg, #D7FE62 50%, #010101 50%);
+        height: 100%;
+        img{
+          position: absolute;
+          width: 870px;
+          bottom: 0;
+          left: -255px;
+          z-index: 5;
+        }
+      }
+    }
+  }
+}

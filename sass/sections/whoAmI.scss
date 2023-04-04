@@ -1,0 +1,57 @@
+@import "../global.scss";
+
+.whoAmISection {
+  max-width: 1060px;
+  width: 100%;
+  border: 2px solid $dark-gray;
+  border-radius: 8px;
+  display: flex;
+  gap: 60px;
+  margin: 0 70px 80px 70px;
+  .img {
+    position: relative;
+    max-width: 463px;
+    width: 99%;
+    overflow: hidden;
+    background-color: $green;
+
+    img {
+      width: 600px;
+      position: absolute;
+      bottom: -20px;
+      left: -80px;
+    }
+  }
+
+  .content {
+    max-width: 488px;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 30px;
+
+    h6 {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 28px;
+    }
+
+    h2 {
+      font-size: 64px;
+      line-height: 64px;
+      font-weight: 400;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 32px;
+      color: $light-gray;
+      margin-bottom: 24px;
+    }
+
+    .btn {
+      width: 100%;
+      margin-top: 24px;
+    }
+  }
+}
