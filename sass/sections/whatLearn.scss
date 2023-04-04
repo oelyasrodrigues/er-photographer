@@ -1,11 +1,12 @@
 @import "../global.scss";
 
 .whatLearnSection {
-  height: 594px;
+  // height: 594px;
   max-width: 1140px;
   width: 100%;
   margin-top: 70px;
   margin-bottom: 200px;
+  overflow: hidden;
 
   h2 {
     margin: 0 auto;
